@@ -56,8 +56,9 @@ namespace WisdomAndGrace
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
+            //had to add this..
             app.UseAuthentication();
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
